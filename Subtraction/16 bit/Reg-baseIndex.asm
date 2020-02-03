@@ -4,10 +4,11 @@
 
 org 100h
 
-mov [1234h],9967h;
-mov bx,1234h;
-mov ax,8796h;
-sub ax,[bx];
+MOV [3000H],1234H
+MOV BX,1000H
+MOV SI,2000H
+MOV Ax,2345H
+sub Ax,[BX][SI]
 
 ret
 

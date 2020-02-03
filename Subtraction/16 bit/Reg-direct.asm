@@ -4,10 +4,9 @@
 
 org 100h
 
-mov ax,9999h;
-mov bx,9989h;
-mov [1234h],bx;
-sub ax,[1234h]
+MOV bx,8888H
+MOV ax,9999H
+SUB Ax,Bx
 
 ret
 

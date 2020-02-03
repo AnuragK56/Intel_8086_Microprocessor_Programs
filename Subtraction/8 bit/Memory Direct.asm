@@ -4,8 +4,9 @@
 
 org 100h
 
-mov ax,1234h
-sub ax,9999h
+MOV AL,76H 
+MOV [1000H],59H
+SUB AL,[1000h]
 
 ret
 
