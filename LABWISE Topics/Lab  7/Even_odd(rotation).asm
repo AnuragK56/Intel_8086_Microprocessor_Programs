@@ -1,6 +1,5 @@
 
-; 
-include emu8086.inc
+; include emu8086.inc
 org 100h
 
 MOV ax,05h
@@ -9,8 +8,6 @@ JNC l2
 Print 'odd';
 ret
 l2:Print 'even';
-
-
 ret
 
 

@@ -13,8 +13,6 @@ JZ l1;
 Print 'odd';
 ret
 l1:Print 'even';
-
-
 ret
 
 
